@@ -1,0 +1,51 @@
+body{
+    background-color: rgba(255, 255, 255, 0.993);
+}
+/* :root{
+    --text-align: center;
+} */
+.first-container{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.secont-container{
+    margin: 10px;
+    position: relative;
+}
+/* .icon-heard-center{
+    content: '';
+    z-index: 2;
+    width: 10px;
+    height: 10px;
+    border: 2px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 0%;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    transform: rotate(45deg);
+} */
+.svg-heart{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.shoes-img {
+    border-radius: 5px;
+    padding: 0px 0px 0px 5px;
+}
+.item-price{
+    font-weight: bold;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    /* text-align: var(--text-align); */
+    /* просто так */
+}
+.item-type{
+    margin: 0ch;
+}
+.item-title{
+    margin: 0px;
+}
